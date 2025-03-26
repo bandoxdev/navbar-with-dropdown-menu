@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Day 1 - Responsive navbar with dropdown menus</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul class="nav-links">
+                <li class="nav-link">
+                    <a href="#">Home</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">About</a>
+                </li>
+                <li class="nav-link navs">
+                    <a href="#">Services
+                        <span class="material-icons dropdown-icon">
+                            arrow_drop_down
+                        </span>
+                    </a>
+                    <ul class="dropdown">
+                        <li>Frontend Web Development</li>
+                        <li>UI/UX Design</li>
+                        <li>Graphic Design</li>
+                    </ul>
+                </li>
+                <li class="nav-link navs">
+                    <a href="#">Projects
+                        <span class="material-icons dropdown-icon">
+                            arrow_drop_down
+                        </span>
+                    </a>
+                    <ul class="dropdown">
+                        <li>Project 1</li>
+                        <li>Project 2</li>
+                        <li>Project 3</li>
+                    </ul>
+                </li>
+                <li class="nav-link navs">
+                    <a href="#">Tools
+                        <span class="material-icons dropdown-icon">
+                            arrow_drop_down
+                        </span>
+                    </a>
+                    <ul class="dropdown">
+                        <li>VS Code</li>
+                        <li>Figma</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
